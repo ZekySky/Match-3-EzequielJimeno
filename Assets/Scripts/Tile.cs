@@ -18,19 +18,16 @@ public class Tile : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log("Deteccion");
         board.TileDown(this);
     }
 
     private void OnMouseEnter()
     {
-        Debug.Log("Deteccion");
         board.TileOver(this);
     }
 
     private void OnMouseUp()
     {
-        Debug.Log("Deteccion");
         board.TileUp(this);
     }
 }
